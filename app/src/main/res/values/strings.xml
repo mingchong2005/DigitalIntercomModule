@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="app_name">DigitalIntercom</string>
+	<string name="Setup">Set serial</string>
+	<string name="SpkTest">PTT test</string>
+	<string name="Quit">Quit</string>
+	
+	<string name="error_configuration">Please configure your serial port first.</string>
+	<string name="error_security">You do not have read/write permission to the serial port.</string>
+	<string name="error_unknown">The serial port can not be opened for an unknown reason.</string>
+
+	<string name="firewareversion">fireware version</string>
+	<string name="write">write</string>
+	<string name="DigitalIntercomSet">DigitalIntercomSet</string>
+	<string name="DigitalIntercomSwitch">DigitalIntercomSwitch</string>
+	<string name="Start">Start</string>
+
+</resources>

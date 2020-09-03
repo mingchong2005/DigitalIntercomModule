@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">串口测试</string>
+	<string name="Setup">设置串口</string>
+	<string name="SpkTest">串口测试</string>
+	<string name="Quit">退出</string>
+		
+	<string name="error_configuration">Please configure your serial port first.</string>
+	<string name="error_security">You do not have read/write permission to the serial port.</string>
+	<string name="error_unknown">The serial port can not be opened for an unknown reason.</string>
+ 
+	<string name="firewareversion">查询版本</string>
+	<string name="write">写入</string>
+	<string name="DigitalIntercomSet">数字信道配置</string>
+	<string name="DigitalIntercomSwitch">数字信道切换</string>
+	<string name="Start">设置 3333</string>
+
+</resources>

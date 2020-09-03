@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center" >
+
+	<EditText
+		android:id="@+id/EditTextReceive"
+		android:layout_width="fill_parent"
+		android:layout_height="60dip"
+		android:editable="false"
+		android:focusable="false"
+		android:focusableInTouchMode="false"
+		android:hint="ReceiveText"
+		android:isScrollContainer="true"
+		android:screenReaderFocusable="false"
+		android:scrollbarStyle="insideOverlay"
+		android:scrollHorizontally="false" />
+	<EditText
+		android:id="@+id/EditTextInput"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/EditTextReceive"
+		android:focusable="true"
+		android:focusableInTouchMode="true"
+		android:hint="InputText"
+		android:isScrollContainer="true"
+		android:scrollbarStyle="insideOverlay" />
+	<Button
+		android:id="@+id/write"
+		android:text="@string/write"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/EditTextInput"
+		/>
+	<Button
+		android:id="@+id/firewareversion"
+		android:text="@string/firewareversion"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:layout_below="@+id/write"
+	/>
+
+	<Button
+		android:id="@+id/DigitalIntercomSet"
+		android:text="@string/DigitalIntercomSet"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:layout_below="@+id/firewareversion"
+	/>
+
+	<Button 
+		android:id="@+id/DigitalIntercomSwitch"
+		android:text="@string/DigitalIntercomSwitch"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:layout_below="@+id/DigitalIntercomSet"
+	/>
+
+	<Button 
+		android:id="@+id/Start"
+		android:text="@string/Start"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/DigitalIntercomSwitch"
+	/>
+
+
+
+</RelativeLayout>
